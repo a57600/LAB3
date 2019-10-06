@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Daw Forum</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Messages</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Post Blog</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Welcome Diogo</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div>  
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 800px; margin: 0 auto">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="imagens/gotg.jpg" alt="gotg" style="width:100%; height: 400px">
+      </div>
+
+      <div class="item">
+        <img src="imagens/Lole.jpg" alt="loule" style="width:100%; height: 400px">
+      </div>
+    
+      <div class="item">
+        <img src="imagens/nuovocinema.jpg" alt="paradiso" style="width:100%; height: 400px">
+      </div>
+
+      <div class="item">
+        <img src="imagens/jamesgunn.jpg" alt="gunn" style="width:100%; height: 400px">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+  </div>
+</div>
+</br>
+</div>
+
+<div class="container text-center">    
+  <div class="row">
+    <div class="col-sm-3 well">
+      <div class="well">
+        <p><a href="#">Meu Perfil</a></p>
+        <img src="imagens/Carrossel.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+      </div>
+
+       <div class="well">
+        <p><a href="#">Interesses</a></p>
+        <p>
+          <span class="label label-default">Notícias</span>
+          <span class="label label-default">Filmes</span>
+          <span class="label label-info">Futebol</span>
+          <span class="label label-danger">"Amigos"</span>
+        </p>
+      </div>
+      
+     
+    </div>
+    <div class="col-sm-7">
+    
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+         <div class="col-sm-3">
+          <div class="well bck">
+           <p>Serginho</p>
+           <img src="imagens/Carrossel.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <strong>Serginho</strong> <span class="text-muted">comentou ontem:</span>
+      </div>
+      <div class="panel-body">
+          Carrega Benfica!!! Pinto da ccosta é um corrupto
+      </div><!-- /panel-body -->
+      </div><!-- /panel panel-default -->
+      </div><!-- /col-sm-5 -->
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well bck">
+           <p>Luis Felipe Vieira</p>
+           <img src="imagens/lfv.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <strong>Not Luis Felipe Vieira</strong> <span class="text-muted">comentou ontem:</span>
+      </div>
+      <div class="panel-body">
+          Eu gasto o dinheiro adonde quiser, não tem nada a ver com isso. Jornalistas, burros.
+      </div><!-- /panel-body -->
+      </div><!-- /panel panel-default -->
+      </div><!-- /col-sm-5 -->
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well bck">
+           <p>Luis Felipe Vieira</p>
+           <img src="imagens/lfv.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <strong>Not Luis Felipe Vieira</strong> <span class="text-muted">comentou há 3 dias:</span>
+      </div>
+      <div class="panel-body">
+          Hipocritas vão hipocrisar
+      </div><!-- /panel-body -->
+      </div><!-- /panel panel-default -->
+      </div><!-- /col-sm-5 -->
+      </div>
+       <div class="row">
+        <div class="col-sm-3">
+          <div class="well bck">
+           <p>Anónimo</p>
+           <img src="imagens/anon.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <strong>Anónimo</strong> <span class="text-muted">comentou há 7 dias:</span>
+      </div>
+      <div class="panel-body">
+          Alguém mais está farto da porcaria do nónio?
+      </div><!-- /panel-body -->
+      </div><!-- /panel panel-default -->
+      </div><!-- /col-sm-5 -->
+      </div>  
+    </div>
+   <div class="col-sm-2 well">
+      <div class="thumbnail">
+        <p>Upcoming Events: Feira da Ladra</p>
+        <img src="imagens/drag.jpg" alt="drag" width="400" height="300">
+                <p>Terça-Feira, 1 de Outubro de 2019</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Powered by Diogo Martins</p>
+</footer>
+
+</body>
+</html>
